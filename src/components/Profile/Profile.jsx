@@ -39,7 +39,9 @@ function Profile() {
         </a>
       </h1>
       <p className="login">
-        <i>@{data.login}</i>
+        <a href={urls.linkedin} target="_blank" rel="noopener noreferrer">
+          <i>@{data.login}</i>
+        </a>
       </p>
 
       <span>
