@@ -1,0 +1,60 @@
+.profile{
+    text-align: center;
+margin-top: 5vh;
+    
+}
+.avatar{
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    padding: 10px;
+    border: 5px solid #A272FF;
+}
+.name{
+    font-size: 6vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.name a{
+    text-decoration: none;
+    color: white;
+}
+.profile span{
+    display: inline-flex;
+}
+.profile ul{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(28, 28, 28);
+    
+}
+.profile li{
+    list-style: none;
+    padding: 2px;
+}
+.login{
+    color: #A272FF;
+    margin: 0;
+}
+.bio{
+    font-size: 3vh;
+    padding: 0vw 8vw;
+}
+@media screen and (max-width: 650px){
+    .avatar {
+        
+        height: 250px;
+        width: 250px;
+        
+    }
+    .name {
+        font-size: 4vh;
+        padding: 0;
+        margin: 0;
+    }
+    .bio {
+        font-size: 2vh;
+        padding: 0vw 4vw;
+    }
+}

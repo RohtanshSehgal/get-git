@@ -1,0 +1,26 @@
+.repos{
+    margin: 10px;
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    border-radius: 30px;
+}
+.heading{
+    font-size: 5vh;
+}
+.repos ul{
+    list-style: none;
+}
+.repos a{
+    text-decoration: none;
+    color:white ;
+}
+
+.reponame{
+    font-size: 3.5vh;
+}
+.desc{
+    color: #A272FF;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2vh;
+}
